@@ -1,2 +1,2 @@
 # HUFFMAN
-Huffman is compression algorithm
+Huffman is a compression algorithm
