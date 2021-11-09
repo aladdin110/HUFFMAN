@@ -48,12 +48,9 @@ charRedundancy* getRedundancy(const char* str, int size) {
         index++;
     }
 
-    charRedundancy* array = sort(arr, index);
 
     free(arr);
     free(string);
     return array;
 }
-
-
 
