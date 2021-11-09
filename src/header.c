@@ -36,8 +36,7 @@ charRedundancy* getRedundancy(const char* str, int size) {
             }
         }
 
-        if (min_index != i)
-        {
+        if (min_index != i) {
             charRedundancy tmp = arr[i];
             arr[i] = arr[min_index];
             arr[min_index] = tmp;
